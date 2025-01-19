@@ -2,14 +2,12 @@ package com.udemyspringboot.springbootproject.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
-import java.util.Objects;import org.apache.tomcat.util.net.openssl.OpenSSLStatus.Name;
+import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatTypes;
 import com.udemyspringboot.springbootproject.entities.enums.OrderStatus;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
